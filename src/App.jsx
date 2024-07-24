@@ -6,7 +6,9 @@ console.log(process.env.REACT_APP_APPWRITE_URL)
   return (
     <>
       A Blog With AppWrite
+      <h1>Hello</h1>
     </>
+
   )
 }
 
