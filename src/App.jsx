@@ -2,7 +2,7 @@
 
 function App() {
   // const [count, setCount] = useState(0)
-console.log(process.env.REACT_APP_APPWRITE_URL)
+console.log(import.meta.env.VITE_APPWRITE_URL)
   return (
     <>
       A Blog With AppWrite
